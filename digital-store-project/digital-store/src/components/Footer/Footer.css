@@ -1,0 +1,18 @@
+.footer-component {
+    background-color: #3938AB;
+    margin-top: 50px;
+}
+
+.footer-flex {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-flex h1 {
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}

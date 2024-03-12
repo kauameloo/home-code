@@ -1,0 +1,61 @@
+.header-page {
+    background-color: #3938AB;
+}
+
+.header-flex {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-social-box {
+    display: flex;
+    gap: 14px;
+}
+
+/* Todos os titulos H3 */
+.header-flex h3 {
+    font-size: 13px;
+    color: white;
+    margin: 0;
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
+
+.header-logo {
+    border-radius: 5px;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-box input {
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
+
+.search-box input::placeholder {
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
+
+/* @media screen and (max-width: 767px) {
+    .header-flex {
+        height: 70px;
+    }
+} */

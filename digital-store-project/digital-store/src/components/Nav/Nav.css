@@ -1,0 +1,14 @@
+.nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-box a {
+    font-size: 13px;
+    color: white;
+    margin: 0;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    text-decoration: none;
+}
